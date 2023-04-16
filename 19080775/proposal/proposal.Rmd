@@ -1,0 +1,60 @@
+---
+title: "Deaths by Classification of Statistical Regional Units and Selected Causes of Death"
+author: 
+  - Mermer, Kadirhan[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{english}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== FOOTNOTES ============================== -->
+<!-- ======================================================================= -->
+[^1]: 19080775, [Github Repo](https://github.com/kadirs38/19080775)
+
+
+# Introduction
+Statistical data obtained in health-related fields and objective indicators obtained as a result of these data are important for determining the health levels of societies, determining health-related priorities, planning health services, evaluating the success of service provision and making comparisons. For these purposes, fertility, mortality and disease indicators are generally used. Mortality shows the degree of effectiveness of health care services and the level of need for health care services. Mortality studies cover the who, how, why and when of mortality and population size, composition and distribution and their interrelationships. In order to have well-functioning health systems, countries need to know accurately how many people are born and how many people die each year and the main causes of their deaths. When deaths are not counted and causes of death are not documented, governments cannot plan effective public health policies, make the right interventions or measure their impact. Information on deaths by age, sex and cause is the cornerstone of planning for all public health issues.
+When setting priorities in public health, it is important to be aware not only of the current extent of health problems but also of trends in them. These trends provide important information on whether a cause of death is increasing or decreasing, whether current disease control efforts are working or are inadequate. Cause-of-death statistics are an important source of data for explaining mortality patterns across space and time, for making population projections, for supporting public health programmes and for hypothesising for research. In addition, it is a necessary data for the determination of public health policies and constitutes the basis of the public health statistics system.
+
+## Literature Review
+
+The most common cause of death was determined as circulatory system diseases. Most of the deaths occurred in winter months. When the regional distribution of diseases was analysed, it was found that deaths due to circulatory and respiratory systems were higher in the western and eastern regions of the Black Sea region. When both sexes were considered, circulatory system disorders, malignancies and respiratory system disorders were the most common causes of death. Conclusion: Determination of mortality rates and causes of death helps to rationalise the policies developed in the field of health and the budget allocated to health by reducing health expenditures.[@akturan:2018]
+
+The causes leading to the deaths of so many children in both developed and developing countries have been investigated and diarrhoea, pneumonia, measles, tetanus and whooping cough have been listed as the leading causes. Among the factors that indirectly cause deaths, malnutrition and lack of education were emphasised, particularly in developing countries, and AIDS, the scourge of our age, was reported.[@altınkaynak:1991]
+
+As one of the most important health outcomes, mortality and its causes are affected by socioeconomic variables as well as health services and the number and quality of health manpower providing these services. Determining the correlations between human resources in health services and mortality is also important in terms of determining the need for health manpower, providing the appropriate qualitative distribution and determining the related policies. In this study, the relationships between mortality rates and causes of mortality and related physician branches were investigated. In addition, the correlations with social and economic capacities such as number of hospital beds, education, average daily earnings per capita were also analysed.[@dayan:2019]
+
+This narrow, retrospective study gives an idea about the causes of death of the patients who died in our hospital in 1985. Infectious diseases were the leading causes of death in childhood, while cardiac and cerebrovascular diseases were the leading causes after the age of 50. Medical equipment in these departments more care should be taken in terms of personnel.  Causes of death should be written properly and in unity of expression. On the other hand, people in this age group may be advised to use their heart and brain with care.[@özeke:1987]
+
+
+
+
+
+
+\newpage
+# References {#references}
+<div id="refs"></div>
+
